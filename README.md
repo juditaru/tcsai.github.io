@@ -1,27 +1,34 @@
-# jekyll-theme-hackcss
+# Darcli
 
-[Dead simple CSS framework](http://hackcss.com/) now with Jekyll.
+## Demo
 
-Mobile-ready, modern, stylish, simple.
+You can see this theme on [gjuniioor.github.io/darcli](https://gjuniioor.github.io/darcli)
 
-## Theme modes
+## Screenshot
 
-This theme comes in three modes, which could be configured in `_config.yml`.
+![Screenshot of the them](assets/img/screenshot.png)
 
-![Standard](https://raw.githubusercontent.com/wemake-services/jekyll-theme-hackcss/3cbe97b71a56a19eba386dd928e125b71e50c71e/images/standard.png)
+## Why the name?
 
-![Dark](https://raw.githubusercontent.com/wemake-services/jekyll-theme-hackcss/3cbe97b71a56a19eba386dd928e125b71e50c71e/images/dark.png)
+It's just a joke: `dark + cli`.
 
-![Markdown](https://raw.githubusercontent.com/wemake-services/jekyll-theme-hackcss/3cbe97b71a56a19eba386dd928e125b71e50c71e/images/markdown.png)
+## Features
 
-## Installation
+* Categories
+* Disqus comments
+* SEO
+	* Description
+	* Keywords
+	* Open Cards to twitter, facebook, linkedin, google+ and others
+* Code post (but no highligth :] )
+* Atom **AND** RSS feeds
 
-Clone this repo. Create your own website. Easy.
+## Warnings
 
-## Configuration
+This is a theme intended to use to [lampiaosec website](https://lampiaosec.github.io) and after was converted to a general theme to jekyll.
 
-See [docs](https://github.com/wemake-services/jekyll-theme-hackcss/blob/master/docs.md).
+So, any questions, can you contact me ([@gjuniioor](https://github.com/gjuniioor)) or open a [issue](https://github.com/gjuniioor/darcli/issuesi).
 
 ## License
 
-GNU PGL 3. See [LICENSE](https://github.com/wemake-services/jekyll-theme-hackcss/blob/3cbe97b71a56a19eba386dd928e125b71e50c71e/LICENSE) for more information.
+This theme is under [GPL3](assets/LICENSE).
