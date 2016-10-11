@@ -34,8 +34,8 @@ navigation:
     url: /docs
   - text: Papers
     url: /examples
-- text: Posts
-  url: /posts
+  - text: Posts
+    url: /posts
 
 projects:
   - name: git-secret
