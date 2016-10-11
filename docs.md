@@ -3,25 +3,30 @@ layout: default
 permalink: docs
 ---
 
-# Docs
+# Tilburg Center for Cognitive Science and Artificial intelligence
 
-## Configuration
+We are the coolest cats, we know where its at.
 
-This theme can be configured by modifying the `_config.yml` file.
+The Sound of Joy is Enlightenment  
+Space, Fire, Truth is Enlightenment  
+Space Fire  
+Sometimes it's Music  
+Strange Mathematics  
+Rhythmic Equations  
+The Sound of Thought is Enlightenment  
+The Magic Light of Tomorrow  
+Backwards are those of Sadness  
+Forward and Onward Are those of Gladness  
+Enlightenment Is my Tomorrow  
+It has no planes of Sorrow  
+Hereby, my Invitation  
+I do invite you be of my Space World  
+This Song is Sound of Enlightenment  
+The Fiery Truth of Enlightenment  
+Vibrations come from the Space World  
+Is of the Cosmic Starry Dimension  
+Enlightenment is my Tomorrow  
+It has no planes of Sorrow  
+Hereby, our Invitation  
+We do invite you to be of our Space World.  
 
-### Theme settings
-
-This theme supports three different mode provided by `hack.css`:
-
-- `standard`
-- `markdown`
-- `dark`
-
-Set `theme_mode` to the desired value.
-
-### Available customizations
-
-- `your_name` and `email` strings to display them in different places on site
-- `navigation` is an array of `text` and `url` pairs to render the menu
-- `projects` is a setting that contains data for the `examples` page, every item must contain `name` and `link`, `image` and `description` are optional
-- `social` contains an array of three required params: `service` is used to include a service icon by the {% raw %}`{% include icon-{{ service }}.html %}`{% endraw %} command, `username` and `link` are quite obvious

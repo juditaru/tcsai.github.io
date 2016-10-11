@@ -29,9 +29,9 @@ email: mail@sobolevn.me
 navigation:
   - text: Home
     url: /
-  - text: Docs
+  - text: About
     url: /docs
-  - text: Examples
+  - text: Papers
     url: /examples
 
 projects:
@@ -49,10 +49,10 @@ projects:
   - name: django-split-settings
     description: Organize Django settings into multiple files and directories. Easily override and modify settings. Use wildcards and optional settings files.
     link: https://github.com/sobolevn/django-split-settings
-  - name: Representation of Linguistic Form and Function in Recurrent Neural Networks
-    description: We present novel methods for analysing the activation patterns of RNNs and identifying the types of linguistic structure they learn. As a case study, we use a multi-task gated recurrent network model consisting of two parallel pathways with shared word embeddings trained on predicting the representations of the visual scene corresponding to an input sentence , and predicting the next word in the same sentence. We show that the image prediction pathway is sensitive to the information structure of the sentence, and pays selective attention to lexical categories and grammatical functions that carry semantic information. It also learns to treat the same input token differently depending on its grammatical functions in the sentence. The language model is comparatively more sensitive to words with a syntactic function. Our analysis of the function of individual hidden units shows that each pathway contains specialized units tuned to patterns informative for the task, some of which can carry activations to later time steps to encode long-term dependencies.
-    link: https://www.semanticscholar.org/paper/Representation-of-linguistic-form-and-function-in-K%C3%A1d%C3%A1r-Chrupala/50257eed75ca280aef399203de1c5863dd7d603a
-    image: https://www.semanticscholar.org/paper/Representation-of-linguistic-form-and-function-in-K%C3%A1d%C3%A1r-Chrupala/50257eed75ca280aef399203de1c5863dd7d603a/figure/8
+  - name: Learning language through pictures
+    description: We propose IMAGINET, a model of learning visually grounded representations of language from coupled textual and visual input. The model consists of two Gated Recurrent Unit networks with shared word embeddings, and uses a multitask objective by receiving a textual description of a scene and trying to concurrently predict its visual representation and the next word i the sentence. Like humans, it acquires meaning representations for individual words from descriptions of visual scenes. Moreover, it learns to effectively use sequential structure in semantic interpretation of multi-word phrases.
+    link: https://arxiv.org/abs/1506.03694
+    image: http://kadarakos.github.io/img/imagenet.png
 
 social:
   - service: github
