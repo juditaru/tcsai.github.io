@@ -29,4 +29,3 @@ Enlightenment is my Tomorrow
 It has no planes of Sorrow  
 Hereby, our Invitation  
 We do invite you to be of our Space World.  
-
