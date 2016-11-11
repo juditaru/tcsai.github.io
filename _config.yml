@@ -1,17 +1,11 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Cognitive Science & AI Research Group
 description: > # this means to ignore newlines until "baseurl:"
-  We develop and implement computational and cognitive models and benefit from the recent advances in neural networks and deep learning. These insights are applied in many practical domains, including cultural heritage, education, e-Health, journalism and virtual reality.
+  <b>Tilburg CS & AI Group</b><br>
+  Dante Building<br>
+  5037 AB Tilburg<br>
+  013 466 2140
 repository: https://github.com/tcsai/tcsai.github.io
-baseurl:   # the subpath of your site, e.g. /blog
-url:   # the base hostname & protocol for your site  https://wemake-services.github.io
 
 # Build settings
 markdown: kramdown
@@ -21,7 +15,7 @@ sass:
   style: compressed
 
 # Theme settings
-theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
+theme_mode: markdown
 
 # Customizations
 your_name: CS & AI
@@ -30,24 +24,60 @@ email: ourmail@uvt.nl
 navigation:
   - text: Home
     url: /
-  - text: About
-    url: /docs
-  - text: Papers
-    url: /examples
-  - text: Posts
-    url: /posts
+  - text: People
+    url: /people
+  - text: Publications
+    url: /pubs
+  - text: Blogs
+    url: /blogs
 
-projects:
-  - name: Learning language through pictures
-    description: We propose IMAGINET, a model of learning visually grounded representations of language from coupled textual and visual input. The model consists of two Gated Recurrent Unit networks with shared word embeddings, and uses a multitask objective by receiving a textual description of a scene and trying to concurrently predict its visual representation and the next word i the sentence. Like humans, it acquires meaning representations for individual words from descriptions of visual scenes. Moreover, it learns to effectively use sequential structure in semantic interpretation of multi-word phrases.
+people:
+  - name: Prof.dr. Max Louwerse
+    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/m.m.louwerse.jpg
+    description: Max Louwerse is Professor of Cognitive Psychology and Artificial Intelligence at Tilburg University. After his PhD from the University of Edinburgh, Scotland, he was Assistant Professor, Associate Professor and Full Professor in Psychology at the Institute for Intelligent Systems at the University of Memphis, and Director of the Institute for Intelligent Systems. He served as Principal Investigator, Co-Principal Investigator or Senior Researcher on over 10 millions dollar of federally funded grant projects and published over 100 articles in the cognitive sciences, including publications on symbolic and embodied cognition, language statistics, multimodal communication, embodied conversational agents, cohesion and coherence, and discourse processes.
+    contact: mail@tilburguniversity.edu
+  - name: Prof.dr. Eric Postma
+    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/370030.jpg
+    description: My main research focuses on the automatic analysis of visual and vocal expressions and behaviors by means of methods from the domains of Social Signal Processing and Affective Computing. Human perceptual and cognitive mechanisms serve as an inspiration for the development of these methods. In addition, I study the automatic classification and analysis of visual texture and color to determine the authorship of paintings.
+    contact: mail@tilburguniversity.edu
+  - name: Dr. Afra Alishahi
+    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/507532.jpg
+    description: My primary research interest involves the development of computational models of human language acquisition. Computational modeling is an effective tool for studying human cognitio; whereas linguistic and psychological theories often give a high level explanation for the experimental data, computational models provide a detailed account of the underlying mechanisms for the cognitive task at hand. Moreover, the behavior of a model can be directly compared to that of humans through computational simulation.
+    contact: mail@tilburguniversity.edu
+  - name: Dr. Grzegorz Chrupala
+    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/425110.jpg
+    description: Discovering structure in text. With the advent of digital storage large and increasing quantities of text are being recorded every day. In order to make sense of this continuing stream of data I am working on computational methods for discovering meaningful structure in it. My main focus is on cognitively-inspired models of language learning which illuminate language acquisition in humans while at the same time being useful for real-world text understanding applications.
+    contact: mail@tilburguniversity.edu
+  - name: Dr. Marie Postma
+    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/720333.jpg
+    description: As shown in a number of psychoacoustic and neurological studies, human listeners differ in what aspects of a complex sound signal they perceive to be dominant. In particular, they can be roughly divided between F0 listeners, who focus on the information encoded in the fundamental frequency and its change in time, and spectral listeners, who are primarily affected by the overall spectral information in the signal, such as its timbre. Given that discriminating the individual components of the sound signal is the core skill behind human speech processing, it is of importance that we gain insight into individual differences in speech perception and their possible impact on interpretation, as well as on production and language learning.
+    contact: mail@tilburguniversity.edu
+  - name: Dr. Sander Wubben
+    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/143286.jpg
+    description: My research focuses on automatic monolingual text-to-text generation. Examples of monolingual text-to-text generation are paraphrase generation, sentence simplification, sentence compression and language transformation. The ability to paraphrase can serve to explain something or to provide feedback in dialogue. Sentence compression is useful for generating summaries, subtitles or tweets. Language transformation can be used to make text written in for example Middle Dutch accessible by transforming it to modern day language. Text-to-text generation may also help to increase performance of other natural language processing tasks such as question answering, dialogue systems and machine translation. In my research I regard text-to-text generation as a monolingual machine translation task and I investigate how machine translation methods can be applied to monolingual text-to-text generation.
+    contact: mail@tilburguniversity.edu
+  - name: Dr. Menno van Zaanen
+    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/289667.jpg
+    description: Many sources of data, such as natural language or music, have an inherent internal structure. This structure describes the regularities and restrictions of the data. This research aims at making the structure explicit, which leads to a description of the underlying (formal) language of the data. This information can then be used, for instance, to group similar elements in the data together. The research is divided into two parts. The first part aims at learning language models that describe the data and can be used to introduce explicit structure on top of the unstructured data. The second part aims at using the identified structure in specific applications. For instance, in the context of mood classification of (music) lyrics, language models for each of the different moods can be used to identify the underlying mood of the lyrics of a particular song. Similarly, language models can be applied within spelling correction systems that require sentential context to identify and correct errors.
+    contact: mail@tilburguniversity.edu
+
+publications:
+  - title: Learning language through pictures
+    authors: A. Kadar, G. Chrupala, A. Alishahi
+    year: 2016
+    abstract: We propose IMAGINET, a model of learning visually grounded representations of language from coupled textual and visual input. The model consists of two Gated Recurrent Unit networks with shared word embeddings, and uses a multitask objective by receiving a textual description of a scene and trying to concurrently predict its visual representation and the next word i the sentence. Like humans, it acquires meaning representations for individual words from descriptions of visual scenes. Moreover, it learns to effectively use sequential structure in semantic interpretation of multi-word phrases.
     link: https://arxiv.org/abs/1506.03694
     image: http://kadarakos.github.io/img/imagenet.png
-  - name: Learning word meanings from images of natural scenes
-    description: Children early on face the challenge of learning the meaning of words from noisy and ambiguous contexts. Utterances that guide their learning are emitted in complex scenes rendering the mapping between visual and linguistic cues difficult. We propose a novel computational model of cross-situational word learning that takes images of natural scenes paired with their descriptions as input and incrementally learns probabilistic associations between words and image features. Through a set of experiments we show that the model learns meaning representations that correlate with human similarity judgments, and that given an image of a scene it produces words conceptually related to the image.
-    link: https://www.atala.org/IMG/pdf/3-_TAL-_55-3-_AKadar-final.pdf
-  - name: Individual variation in the choice of referential form
-    description: This study aims to measure the variation between writers in their choices of referential form by collecting and analysing a new and publicly available corpus of referring expressions. The corpus is composed of referring expressions produced by different participants in identical situations. Results, measured in terms of normalized entropy, reveal substantial individual variation. We discuss the problems and prospects of this finding for automatic text generation applications.
+  - title: Individual Variation in the Choice of Referential Form
+    authors: T. Castro Ferreira, E. Krahmer, S. Wubben
+    year: 2016
+    abstract: This study aims to measure the variation between writers in their choices of referential form by collecting and analysing a new and publicly available corpus of referring expressions. The corpus is composed of referring expressions produced by different participants in identical situations. Results, measured in terms of normalized entropy, reveal substantial individual variation. We discuss the problems and prospects of this finding for automatic text generation applications.
     link: http://anthology.aclweb.org/N/N16/N16-1048.pdf
+  - title: Learning word meanings from images of natural scenes
+    authors: A. Kadar, G. Chrupala, A. Alishahi
+    year: 2015
+    abstract: Children early on face the challenge of learning the meaning of words from noisy and ambiguous contexts. Utterances that guide their learning are emitted in complex scenes rendering the mapping between visual and linguistic cues difficult. We propose a novel computational model of cross-situational word learning that takes images of natural scenes paired with their descriptions as input and incrementally learns probabilistic associations between words and image features. Through a set of experiments we show that the model learns meaning representations that correlate with human similarity judgments, and that given an image of a scene it produces words conceptually related to the image.
+    link: https://www.atala.org/IMG/pdf/3-_TAL-_55-3-_AKadar-final.pdf
 
 social:
   - service: github
@@ -56,6 +86,9 @@ social:
   - service: twitter
     username: _tcsai
     link: https://twitter.com/tcsai
+  - service: rss
+    username: subscribe
+    link: ./feed.xml
 
 # Plugins
 gems:

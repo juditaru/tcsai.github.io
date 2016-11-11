@@ -1,0 +1,33 @@
+---
+layout: default
+permalink: pubs
+---
+
+<section>
+  <h1>Publications</h1>
+
+  {% for paper in site.publications %}
+    <div class="media t-hackcss-media">
+      <main>
+      <div class="media-body">
+        <div class="media-heading">
+          <span>{{ paper.year }} &raquo; {{ paper.authors }} &raquo;
+            {% if paper.link %}
+              <a href="{{ paper.link }}" target="_blank" title="{{ paper.title }}">
+                {{ paper.title }}
+              </a>
+            {% else %}
+                {{ paper.title }}
+            {% endif %}
+          </span>
+        </div>
+        <div class="media-content">
+          {{ paper.abstract }}
+        </div>
+        <img src="{{ paper.image }}" class="media-image"></img>
+      </div>
+      </main>
+
+    </div>
+  {% endfor %}
+</section>

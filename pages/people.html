@@ -1,0 +1,42 @@
+---
+layout: default
+permalink: people
+---
+
+<section>
+
+  <h1>People</h1>
+
+  <div class="grid t-hackcss-cards">
+
+    {% for person in site.people %}
+
+    <div class="cell -4of12 t-hackcss-cards-cell">
+      <div class="card">
+        <header class="card-header">{{ person.name }}</header>
+        <div class="card-content">
+          <div class="inner">
+
+            {% if person.image %}
+            <img src="{{ person.image }}" class="t-hackcss-cards-image"
+                 alt="{{ person.name }}"
+                 title="{{ person.name }}" />
+            {% endif %}
+
+            <p class="t-hackcss-cards-text" style="overflow-y: scroll; height:15em;">{{ person.description }}</p>
+            <p class="t-hackcss-cards-link">
+              <!--
+              <a href="{{ person.contact }}" title="{{ person.contact }}" target="_blank">
+                 {{ person.contact }}
+               </a>
+              -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
+</section>
