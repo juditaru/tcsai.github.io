@@ -27,9 +27,59 @@ navigation:
   - text: People
     url: /people
   - text: Publications
-    url: /pubs
+    url: /pub
   - text: Blogs
     url: /blogs
+  - text: Software
+    url: /code
+  - text: Teaching
+    url: /edu
+
+publications:
+  - title: Learning language through pictures
+    authors: Kádár A., Chrupała G., Alishahi A.
+    year: 2016
+    place: arXiv preprint arXiv:1506.03694
+    link: https://arxiv.org/abs/1506.03694
+    image: http://kadarakos.github.io/img/imagenet.png
+  - title: Individual Variation in the Choice of Referential Form
+    authors: Ferreira TC., Krahmer E., Wubben S.
+    year: 2016
+    place: Proceedings of NAACL
+    link: http://anthology.aclweb.org/N/N16/N16-1048.pdf
+  - title: Learning word meanings from images of natural scenes
+    authors: Kádár A., Chrupała G., Alishahi A.
+    year: 2015
+    place: Traitement Automatique des Langues
+    link: https://www.atala.org/IMG/pdf/3-_TAL-_55-3-_AKadar-final.pdf
+
+courses:
+  - name: Social Data Mining
+    teachers: Postma, E., Chrupała, G., Emmery, C.
+    description: Data Science methods are becoming the main tools for acquiring information both in the business context and in scientific research. The course offers a thorough introduction to the use of data mining for the analysis of data in a wide variety of formats. Upon completion of the course, students will have acquired the skills necessary to apply data mining in support of decision making, visualisation, and discovery. In addition, students will be familiar with advanced topics such as deep learning. The perspective of the course is application-oriented and serves to provide students with the knowledge and experience that is in line with the current demand for skilled data scientists.
+    image: http://www.healthbizdecoded.com/wp-content/uploads/2013/06/data-mining-630x390.jpg
+    link: https://mystudy.uvt.nl/it10.vakzicht?taal=N&pfac=FGW&vakcode=880091
+  - name: Machine Learning
+    teachers: Chrupała, G., Noord van, N.
+    description: Learning from examples is one of the most basic aspects of human intelligence. The field of Machine Learning tries to replicate this skill and apply it to real-world problem; filtering spam from your mailbox, recognizing faces in photos, classifying documents, recommending movies and songs, or detecting credit-card fraud. In this course you will learn the theory behind classic machine learning algorithms and at the same time get hands-on experience with using the programming language Python to apply machine learning methods to practical problems.
+    image: https://jaxenter.com/wp-content/uploads/2015/03/shutterstock_155844119-e1426582475771.jpg
+    link: https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880083
+  - name: Research Skills - Text Mining
+    teachers: Engelen, J., Keuleers, E., Emmery, C.
+    description: Do liars use specific words and sentence structures more often than people who tell the truth? Can a computer judge the quality of a text and make suggestions for improvement? Have political speeches become more polarizing in the last decade? How can a publisher turn a newspaper archive with millions of articles into an online database that can be browsed by topic? These are just a few questions that fall within the scope of ‘text mining’, an umbrella term for various processes for extracting high-quality information from text, mostly relying on advanced computational techniques.
+    image: http://thehackednews.com/wp-content/uploads/2016/05/stock-photo-robot-child-reading-a-book-in-the-workshop-of-its-creator-287641082-810x541.jpg
+    link: https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022
+
+software:
+  - name: Omesa
+    authors: Emmery, C.
+    link: https://github.com/cmry/omesa
+    language: Python
+    description: Framework for reproducable Text Mining research.
+  - name: funktional
+    authors: Chrupała, G.
+    language: Python
+    description: A minimalistic toolkit for functionally composable neural network layers with Theano.
 
 people:
   - name: Prof.dr. Max Louwerse
@@ -44,7 +94,7 @@ people:
     image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/507532.jpg
     description: My primary research interest involves the development of computational models of human language acquisition. Computational modeling is an effective tool for studying human cognitio; whereas linguistic and psychological theories often give a high level explanation for the experimental data, computational models provide a detailed account of the underlying mechanisms for the cognitive task at hand. Moreover, the behavior of a model can be directly compared to that of humans through computational simulation.
     contact: mail@tilburguniversity.edu
-  - name: Dr. Grzegorz Chrupala
+  - name: Dr. Grzegorz Chrupała
     image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/425110.jpg
     description: Discovering structure in text. With the advent of digital storage large and increasing quantities of text are being recorded every day. In order to make sense of this continuing stream of data I am working on computational methods for discovering meaningful structure in it. My main focus is on cognitively-inspired models of language learning which illuminate language acquisition in humans while at the same time being useful for real-world text understanding applications.
     contact: mail@tilburguniversity.edu
@@ -61,33 +111,15 @@ people:
     description: Many sources of data, such as natural language or music, have an inherent internal structure. This structure describes the regularities and restrictions of the data. This research aims at making the structure explicit, which leads to a description of the underlying (formal) language of the data. This information can then be used, for instance, to group similar elements in the data together. The research is divided into two parts. The first part aims at learning language models that describe the data and can be used to introduce explicit structure on top of the unstructured data. The second part aims at using the identified structure in specific applications. For instance, in the context of mood classification of (music) lyrics, language models for each of the different moods can be used to identify the underlying mood of the lyrics of a particular song. Similarly, language models can be applied within spelling correction systems that require sentential context to identify and correct errors.
     contact: mail@tilburguniversity.edu
 
-publications:
-  - title: Learning language through pictures
-    authors: A. Kadar, G. Chrupala, A. Alishahi
-    year: 2016
-    abstract: We propose IMAGINET, a model of learning visually grounded representations of language from coupled textual and visual input. The model consists of two Gated Recurrent Unit networks with shared word embeddings, and uses a multitask objective by receiving a textual description of a scene and trying to concurrently predict its visual representation and the next word i the sentence. Like humans, it acquires meaning representations for individual words from descriptions of visual scenes. Moreover, it learns to effectively use sequential structure in semantic interpretation of multi-word phrases.
-    link: https://arxiv.org/abs/1506.03694
-    image: http://kadarakos.github.io/img/imagenet.png
-  - title: Individual Variation in the Choice of Referential Form
-    authors: T. Castro Ferreira, E. Krahmer, S. Wubben
-    year: 2016
-    abstract: This study aims to measure the variation between writers in their choices of referential form by collecting and analysing a new and publicly available corpus of referring expressions. The corpus is composed of referring expressions produced by different participants in identical situations. Results, measured in terms of normalized entropy, reveal substantial individual variation. We discuss the problems and prospects of this finding for automatic text generation applications.
-    link: http://anthology.aclweb.org/N/N16/N16-1048.pdf
-  - title: Learning word meanings from images of natural scenes
-    authors: A. Kadar, G. Chrupala, A. Alishahi
-    year: 2015
-    abstract: Children early on face the challenge of learning the meaning of words from noisy and ambiguous contexts. Utterances that guide their learning are emitted in complex scenes rendering the mapping between visual and linguistic cues difficult. We propose a novel computational model of cross-situational word learning that takes images of natural scenes paired with their descriptions as input and incrementally learns probabilistic associations between words and image features. Through a set of experiments we show that the model learns meaning representations that correlate with human similarity judgments, and that given an image of a scene it produces words conceptually related to the image.
-    link: https://www.atala.org/IMG/pdf/3-_TAL-_55-3-_AKadar-final.pdf
-
 social:
   - service: github
     username: tcsai
     link: https://github.com/tcsai
   - service: twitter
     username: _tcsai
-    link: https://twitter.com/tcsai
+    link: https://twitter.com/_tcsai
   - service: rss
-    username: subscribe
+    username: rss
     link: ./feed.xml
 
 # Plugins

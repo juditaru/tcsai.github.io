@@ -1,0 +1,27 @@
+---
+layout: default
+permalink: code
+---
+
+<section>
+  <h1>Software</h1>
+
+  <div class="cell -4of12">
+    <table>
+      <tr>
+        <th>name</th>
+        <th>authors</th>
+        <th>lanuage</th>
+        <th>description</th>
+      </tr>
+      {% for code in site.software %}
+      <tr>
+        <td><a href="{{ code.link }}">{{ code.name }}</a></td>
+        <td>{{ code.authors }}</td>
+        <td>{{ code.language }}</td>
+        <td>{{ code.description }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</section>
