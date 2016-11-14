@@ -12,10 +12,9 @@
         adapted from <a href="https://github.com/wemake-services/jekyll-theme-hackcss">hackcss</a>. Icons by <a href"http://fontawesome.io">Font Awesome</a>. Web fonts by <a href="https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/">Mozilla</a>.
     </div>
 
+      <div id="footer-spacer" class="cell -1of12"></div>
 
-    <div id="footer-spacer" class="cell -1of12"></div>
-
-    <div class="cell -3of12">
+    <div class="cell -4of12">
       <div class="contact-list">
         <!--
         <p>
@@ -30,10 +29,14 @@
             <a href="{{ social.link }}">{{ social.username }}</a>
           </span>
         {% endfor %}
+          <span class="t-hackcss-social">
+            <i class="fa fa-upload" aria-hidden="true"></i>
+            <a href="https://github.com/tcsai/tcsai.github.io/commits/master">{{ site.time | date: "%d-%m-%y" }}</a>
+          </span>
       </div>
     </div>
 
-    <div id="footer-spacer" class="cell -1of12"></div>
+
 
     <div class="cell -3of12" style="text-align: right">
       {{ site.description }}
