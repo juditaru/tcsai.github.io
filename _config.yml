@@ -87,14 +87,6 @@ software:
     description: A minimalistic toolkit for functionally composable neural network layers with Theano.
 
 people:
-  - name: Prof.dr. Max Louwerse
-    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/m.m.louwerse.jpg
-    description: Max Louwerse is Professor of Cognitive Psychology and Artificial Intelligence at Tilburg University. After his PhD from the University of Edinburgh, Scotland, he was Assistant Professor, Associate Professor and Full Professor in Psychology at the Institute for Intelligent Systems at the University of Memphis, and Director of the Institute for Intelligent Systems. He served as Principal Investigator, Co-Principal Investigator or Senior Researcher on over 10 millions dollar of federally funded grant projects and published over 100 articles in the cognitive sciences, including publications on symbolic and embodied cognition, language statistics, multimodal communication, embodied conversational agents, cohesion and coherence, and discourse processes.
-    contact: mail@tilburguniversity.edu
-  - name: Prof.dr. Eric Postma
-    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/370030.jpg
-    description: My main research focuses on the automatic analysis of visual and vocal expressions and behaviors by means of methods from the domains of Social Signal Processing and Affective Computing. Human perceptual and cognitive mechanisms serve as an inspiration for the development of these methods. In addition, I study the automatic classification and analysis of visual texture and color to determine the authorship of paintings.
-    contact: mail@tilburguniversity.edu
   - name: Dr. Afra Alishahi
     image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/507532.jpg
     description: My primary research interest involves the development of computational models of human language acquisition. Computational modeling is an effective tool for studying human cognitio; whereas linguistic and psychological theories often give a high level explanation for the experimental data, computational models provide a detailed account of the underlying mechanisms for the cognitive task at hand. Moreover, the behavior of a model can be directly compared to that of humans through computational simulation.
@@ -102,6 +94,22 @@ people:
   - name: Dr. Grzegorz Chrupała
     image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/425110.jpg
     description: Discovering structure in text. With the advent of digital storage large and increasing quantities of text are being recorded every day. In order to make sense of this continuing stream of data I am working on computational methods for discovering meaningful structure in it. My main focus is on cognitively-inspired models of language learning which illuminate language acquisition in humans while at the same time being useful for real-world text understanding applications.
+    contact: mail@tilburguniversity.edu
+  - name: Chris Emmery
+    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/xy.jpg
+    description: I’m a Lecturer at Tilburg University, as well as a joint PhD candidate doing research for both the CS&AI group at Tilburg and CLiPS at the University of Antwerp under the supervision of Eric Postma, Grzegorz Chrupała, and Walter Daelemans. I currently teach Text Mining and Social Data Mining in context of the new Data Science master. Before, I worked for the AMiCA project where my research was mainly in the field of Text Mining. During this, I focussed on applying Machine Learning for forensic and online security-related applications such as detection of cyberbullying and child grooming, and author profiling. On top of this, I developed software to apply these techniques on social media.
+    contact: c.d.emmery@uvt.nl
+  - name: Ákos Kádár
+    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/kadar.jpg
+    description: I am a PhD student at TiCC working in the field of Computational Modeling of Human Language Acquisition. My primary focus is on learning grounded meaning representations of linguistic units at various levels, from word level to larger multi-word constructions. In my work I borrow methods from both Computer Vision and Computational Linguistics to leverage information from word-word and word-image co-occurences to approximate the meanings of linguistic expressions. I am mostly interested in constructing and evaluating computational models that do not distinguish between the representation of words and visual information and aim to explain how concepts and linguistic meanings arise from these sources.
+    contact: a.kadar@uvt.nl
+  - name: Prof.dr. Max Louwerse
+    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/m.m.louwerse.jpg
+    description: Max Louwerse is Professor of Cognitive Psychology and Artificial Intelligence at Tilburg University. After his PhD from the University of Edinburgh, Scotland, he was Assistant Professor, Associate Professor and Full Professor in Psychology at the Institute for Intelligent Systems at the University of Memphis, and Director of the Institute for Intelligent Systems. He served as Principal Investigator, Co-Principal Investigator or Senior Researcher on over 10 millions dollar of federally funded grant projects and published over 100 articles in the cognitive sciences, including publications on symbolic and embodied cognition, language statistics, multimodal communication, embodied conversational agents, cohesion and coherence, and discourse processes.
+    contact: mail@tilburguniversity.edu
+  - name: Prof.dr. Eric Postma
+    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/370030.jpg
+    description: My main research focuses on the automatic analysis of visual and vocal expressions and behaviors by means of methods from the domains of Social Signal Processing and Affective Computing. Human perceptual and cognitive mechanisms serve as an inspiration for the development of these methods. In addition, I study the automatic classification and analysis of visual texture and color to determine the authorship of paintings.
     contact: mail@tilburguniversity.edu
   - name: Dr. Marie Postma
     image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/720333.jpg
@@ -115,10 +123,7 @@ people:
     image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/289667.jpg
     description: Many sources of data, such as natural language or music, have an inherent internal structure. This structure describes the regularities and restrictions of the data. This research aims at making the structure explicit, which leads to a description of the underlying (formal) language of the data. This information can then be used, for instance, to group similar elements in the data together. The research is divided into two parts. The first part aims at learning language models that describe the data and can be used to introduce explicit structure on top of the unstructured data. The second part aims at using the identified structure in specific applications. For instance, in the context of mood classification of (music) lyrics, language models for each of the different moods can be used to identify the underlying mood of the lyrics of a particular song. Similarly, language models can be applied within spelling correction systems that require sentential context to identify and correct errors.
     contact: mail@tilburguniversity.edu
-  - name: Ákos Kádár
-    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/kadar.jpg
-    description: I am a PhD student at TiCC working in the field of Computational Modeling of Human Language Acquisition. My primary focus is on learning grounded meaning representations of linguistic units at various levels, from word level to larger multi-word constructions. In my work I borrow methods from both Computer Vision and Computational Linguistics to leverage information from word-word and word-image co-occurences to approximate the meanings of linguistic expressions. I am mostly interested in constructing and evaluating computational models that do not distinguish between the representation of words and visual information and aim to explain how concepts and linguistic meanings arise from these sources.
-    contact: a.kadar@uvt.nl
+
 social:
   - service: github
     username: tcsai
