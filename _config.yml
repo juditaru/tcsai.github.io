@@ -73,7 +73,7 @@ people:
     description: Discovering structure in text. With the advent of digital storage large and increasing quantities of text are being recorded every day. In order to make sense of this continuing stream of data I am working on computational methods for discovering meaningful structure in it. My main focus is on cognitively-inspired models of language learning which illuminate language acquisition in humans while at the same time being useful for real-world text understanding applications.
     contact: mail@tilburguniversity.edu
   - name: Chris Emmery
-    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/xy.jpg
+    image: https://avatars3.githubusercontent.com/u/6041070?v=3&s=460
     description: I’m a Lecturer at Tilburg University, as well as a joint PhD candidate doing research for both the CS&AI group at Tilburg and CLiPS at the University of Antwerp under the supervision of Eric Postma, Grzegorz Chrupała, and Walter Daelemans. I currently teach Text Mining and Social Data Mining in context of the new Data Science master. Before, I worked for the AMiCA project where my research was mainly in the field of Text Mining. During this, I focussed on applying Machine Learning for forensic and online security-related applications such as detection of cyberbullying and child grooming, and author profiling. On top of this, I developed software to apply these techniques on social media.
     contact: c.d.emmery@uvt.nl
   - name: Ákos Kádár
