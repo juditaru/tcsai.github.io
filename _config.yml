@@ -65,7 +65,7 @@ software:
 
 people:
   - name: Dr. Afra Alishahi
-    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/507532.jpg
+    image: http://grzegorz.chrupala.me/me.jpg
     description: My primary research interest involves the development of computational models of human language acquisition. Computational modeling is an effective tool for studying human cognitio; whereas linguistic and psychological theories often give a high level explanation for the experimental data, computational models provide a detailed account of the underlying mechanisms for the cognitive task at hand. Moreover, the behavior of a model can be directly compared to that of humans through computational simulation.
     contact: mail@tilburguniversity.edu
   - name: Dr. Grzegorz Chrupała
