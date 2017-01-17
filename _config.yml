@@ -65,11 +65,11 @@ software:
 
 people:
   - name: Dr. Afra Alishahi
-    image: http://grzegorz.chrupala.me/me.jpg
+    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/507532.jpg
     description: My primary research interest involves the development of computational models of human language acquisition. Computational modeling is an effective tool for studying human cognitio; whereas linguistic and psychological theories often give a high level explanation for the experimental data, computational models provide a detailed account of the underlying mechanisms for the cognitive task at hand. Moreover, the behavior of a model can be directly compared to that of humans through computational simulation.
     contact: mail@tilburguniversity.edu
   - name: Dr. Grzegorz Chrupała
-    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/425110.jpg
+    image: http://grzegorz.chrupala.me/me.jpg
     description: Discovering structure in text. With the advent of digital storage large and increasing quantities of text are being recorded every day. In order to make sense of this continuing stream of data I am working on computational methods for discovering meaningful structure in it. My main focus is on cognitively-inspired models of language learning which illuminate language acquisition in humans while at the same time being useful for real-world text understanding applications.
     contact: mail@tilburguniversity.edu
   - name: Chris Emmery
