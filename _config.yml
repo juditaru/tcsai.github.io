@@ -35,32 +35,6 @@ navigation:
   - text: Teaching
     url: /edu
 
-publications:
-  - title: From phonemes to images
-    authors: Gelderloos L., and Chrupała G.
-    date: oct 2016
-    place: Coling
-    link: https://arxiv.org/abs/1610.03342
-
-  - title: Individual Variation in the Choice of Referential Form
-    authors: Ferreira TC., Krahmer E., Wubben S.
-    date: jun 2016
-    place: Proceedings of NAACL
-    link: http://anthology.aclweb.org/N/N16/N16-1048.pdf
-
-  - title: Learning language through pictures
-    authors: Kádár A., Chrupała G., Alishahi A.
-    date: jun 2015
-    place: ACL
-    link: https://arxiv.org/abs/1506.03694
-    image: http://kadarakos.github.io/img/imagenet.png
-
-  - title: Learning word meanings from images of natural scenes
-    authors: Kádár A., Chrupała G., Alishahi A.
-    date: mar 2015
-    place: Traitement Automatique des Langues
-    link: https://www.atala.org/IMG/pdf/3-_TAL-_55-3-_AKadar-final.pdf
-
 courses:
   - name: Social Data Mining
     teachers: Postma, E., Chrupała, G., Emmery, C.
