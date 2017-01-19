@@ -67,51 +67,70 @@ software:
     language: Python
     description: A minimalistic toolkit for functionally composable neural network layers with Theano.
 
-people:
-  - name: Dr. Afra Alishahi
-    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/507532.jpg
-    contact:
-      - icon: envelope
-        link: mailto:mail@tilburguniversity.edu
+staff:
+    - director:
+      label: Directors
+      people:
+      - name: Prof.dr. Max Louwerse
+        image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/m.m.louwerse.jpg
 
-  - name: Dr. Grzegorz Chrupała
-    image: http://grzegorz.chrupala.me/me.jpg
-    contact:
-      - icon: envelope
-        link: mailto:mail@tilburguniversity.edu
+      - name: Prof.dr. Eric Postma
+        image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/370030.jpg
 
-  - name: Chris Emmerich
-    image: https://avatars3.githubusercontent.com/u/6041070?v=3&s=460
-    contact:
-      - icon: globe
-        link: https://cmry.nl
-      - icon: envelope
-        link: mailto:c.d.emmery@uvt.nl
-      - icon: github
-        link: https://github.com/cmry
-      - icon: twitter
-        link: https://twitter.com/_cmry
+    - scientificstaff:
+      label: Scientific staff
+      people:
+      - name: Prof. Pieter Spronck
+        image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/447823.jpg
 
-  - name: Ákos Kádár
-    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/kadar.jpg
+      - name: Dr. Afra Alishahi
+        image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/507532.jpg
+        contact:
+          - icon: envelope
+            link: mailto:mail@tilburguniversity.edu
 
-  - name: Prof.dr. Max Louwerse
-    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/m.m.louwerse.jpg
+      - name: Dr. Grzegorz Chrupała
+        image: http://grzegorz.chrupala.me/me.jpg
+        contact:
+          - icon: envelope
+            link: mailto:mail@tilburguniversity.edu
 
-  - name: Prof.dr. Eric Postma
-    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/370030.jpg
+      - name: Dr. Marie Postma
+        image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/720333.jpg
 
-  - name: Dr. Marie Postma
-    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/720333.jpg
+      - name: Dr. Menno van Zaanen
+        image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/289667.jpg
 
-  - name: Dr. Sander Wubben
-    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/143286.jpg
+    - postdocs:
+      label: Postdocs
+      people:
+      - name: Dr. Sander Wubben
+        image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/143286.jpg
 
-  - name: Dr. Menno van Zaanen
-    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/289667.jpg
+    - phds:
+      label: PhDs
+      people:
+      - name: Chris Emmerich
+        image: https://avatars3.githubusercontent.com/u/6041070?v=3&s=460
+        contact:
+          - icon: globe
+            link: https://cmry.nl
+          - icon: envelope
+            link: mailto:c.d.emmery@uvt.nl
+          - icon: github
+            link: https://github.com/cmry
+          - icon: twitter
+            link: https://twitter.com/_cmry
 
-  - name: Nanne van Noord
-    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/noord.jpg
+      - name: Ákos Kádár
+        image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/kadar.jpg
+
+      - name: Nanne van Noord
+        image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/noord.jpg
+
+    - researchassistants:
+      label: Research assistants
+      people:
 
 social:
   - service: github

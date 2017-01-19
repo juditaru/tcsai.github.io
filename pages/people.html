@@ -7,36 +7,45 @@ permalink: people
 
   <h1>People</h1>
 
-  <div class="grid t-hackcss-cards">
-
-    {% for person in site.people %}
-
-    <div class="cell -3of12 t-hackcss-cards-cell">
-      <div class="card">
-        <header class="card-header">{{ person.name }}</header>
-        <div class="card-content">
-
-          {% if person.image %}
-          <img src="{{ person.image }}"
-               alt="{{ person.name }}"
-               title="{{ person.name }}" style="width: 100%;"/>
-          {% endif %}
-
-          {% if person.contact %}
-          <div class="inner">
-            <center>
-            {% for social in person.contact %}
-            <a href="{{ social.link }}"<i class ="fa fa-{{ social.icon }}"></i></a> &nbsp;
-            {% endfor %}
-            </center>
+  {% for section in site.staff %}
+    {% if section.people != null %}
+  
+    <h4>{{ section.label }}</h4>
+  
+    <div class="grid t-hackcss-cards">
+  
+      {% for person in section.people %}
+  
+      <div class="cell -3of12 t-hackcss-cards-cell">
+        <div class="card">
+          <header class="card-header">{{ person.name }}</header>
+          <div class="card-content">
+  
+            {% if person.image %}
+            <img src="{{ person.image }}"
+                 alt="{{ person.name }}"
+                 title="{{ person.name }}" style="width: 100%;"/>
+            {% endif %}
+  
+            {% if person.contact %}
+            <div class="inner">
+              <center>
+              {% for social in person.contact %}
+              <a href="{{ social.link }}"<i class ="fa fa-{{ social.icon }}"></i></a> &nbsp;
+              {% endfor %}
+              </center>
+            </div>
+            {% endif %}
+  
           </div>
-          {% endif %}
-
         </div>
       </div>
+  
+      {% endfor %}
+  
     </div>
+   {% endif %}
+ {% endfor %}
 
-    {% endfor %}
 
-  </div>
 </section>
