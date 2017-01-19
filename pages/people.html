@@ -11,27 +11,27 @@ permalink: people
 
     {% for person in site.people %}
 
-    <div class="cell -4of12 t-hackcss-cards-cell">
+    <div class="cell -3of12 t-hackcss-cards-cell">
       <div class="card">
         <header class="card-header">{{ person.name }}</header>
         <div class="card-content">
+
+          {% if person.image %}
+          <img src="{{ person.image }}"
+               alt="{{ person.name }}"
+               title="{{ person.name }}" style="width: 100%;"/>
+          {% endif %}
+
+          {% if person.contact %}
           <div class="inner">
-
-            {% if person.image %}
-            <img src="{{ person.image }}" class="t-hackcss-cards-image"
-                 alt="{{ person.name }}"
-                 title="{{ person.name }}" />
-            {% endif %}
-
-            <p class="t-hackcss-cards-text" style="overflow-y: scroll; height:15em;">{{ person.description }}</p>
-            <p class="t-hackcss-cards-link">
-              <!--
-              <a href="{{ person.contact }}" title="{{ person.contact }}" target="_blank">
-                 {{ person.contact }}
-               </a>
-              -->
-            </p>
+            <center>
+            {% for social in person.contact %}
+            <a href="{{ social.link }}"<i class ="fa fa-{{ social.icon }}"></i></a> &nbsp;
+            {% endfor %}
+            </center>
           </div>
+          {% endif %}
+
         </div>
       </div>
     </div>
