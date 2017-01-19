@@ -36,6 +36,8 @@ navigation:
     url: /edu
   - text: Social
     url: /soc
+  - text: Table Teaching
+    url: /teachtest
 
 courses:
   - name: Social Data Mining
