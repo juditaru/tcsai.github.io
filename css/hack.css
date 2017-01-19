@@ -861,3 +861,8 @@ select.form-control {
         width: 100%
     }
 }
+
+.fa {
+    color: #000;
+    border-bottom: 0px;
+}
