@@ -26,17 +26,21 @@ permalink: people
                  alt="{{ person.name }}"
                  title="{{ person.name }}" style="width: 100%;"/>
             {% endif %}
-  
-            {% if person.contact %}
+            {% if person.other or person.email or person.website %}
             <div class="inner">
               <center>
-              {% for social in person.contact %}
+              {% if person.website %}
+              <a href="{{ person.website }}"><i class ="fa fa-home"></i></a> &nbsp;
+              {% endif %}
+              {% if person.email %}
+              <a href="mailto:{{ person.email }}"><i class ="fa fa-envelope"></i></a> &nbsp;
+              {% endif %}
+              {% for social in person.other %}
               <a href="{{ social.link }}"<i class ="fa fa-{{ social.icon }}"></i></a> &nbsp;
               {% endfor %}
               </center>
             </div>
             {% endif %}
-  
           </div>
         </div>
       </div>

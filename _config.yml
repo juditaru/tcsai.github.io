@@ -71,12 +71,8 @@ staff:
       people:
       - name: Prof.dr. Max Louwerse
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/m.m.louwerse.jpg
-        contact:
-          -  icon: globe
-             link: https://www.tilburguniversity.edu/webwijs/show/m.m.louwerse.htm
-          -  icon: envelope
-             link: mailto:m.m.louwerse@tilburguniversity.edu
-        
+        website: https://www.tilburguniversity.edu/webwijs/show/m.m.louwerse.htm
+        email: m.m.louwerse@tilburguniversity.edu
 
       - name: Prof.dr. Eric Postma
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/370030.jpg
@@ -89,15 +85,9 @@ staff:
 
       - name: Dr. Afra Alishahi
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/507532.jpg
-        contact:
-          - icon: envelope
-            link: mailto:mail@tilburguniversity.edu
 
       - name: Dr. Grzegorz Chrupała
         image: http://grzegorz.chrupala.me/me.jpg
-        contact:
-          - icon: envelope
-            link: mailto:mail@tilburguniversity.edu
 
       - name: Dr. Marie Postma
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/720333.jpg
@@ -107,11 +97,9 @@ staff:
 
       - name: Chris Emmery
         image: https://avatars3.githubusercontent.com/u/6041070?v=3&s=460
-        contact:
-          - icon: globe
-            link: https://cmry.nl
-          - icon: envelope
-            link: mailto:c.d.emmery@uvt.nl
+        website: https://cmry.nl
+        email: c.d.emmery@uvt.nl
+        other:
           - icon: github
             link: https://github.com/cmry
           - icon: twitter
@@ -132,6 +120,7 @@ staff:
 
       - name: Nanne van Noord
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/noord.jpg
+        website: http://nanne.github.io/
 
     - researchassistants:
       label: Research assistants
