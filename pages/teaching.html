@@ -7,24 +7,19 @@ permalink: edu
 
   <h1>Teaching</h1>
 
-  <div class="grid t-hackcss-cards">
+  <div class="cell -4of12">
+    <table>
+      <tr>
+        <th>name</th>
+        <th>instructors</th>
+      </tr>
 
     {% for course in site.courses %}
-
-    <div class="cell -5of12 t-hackcss-cards-cell">
-      <div class="card">
-        <header class="card-header"><a href="{{ course.link }}">{{ course.name }}</a></header>
-        <div class="card-content">
-          <img src="{{ course.image }}" alt="{{ course.name }}" title="{{ course.name }}" style="width:450px;height:250px;object-fit: cover" />
-          <div class="inner">
-            <p class="t-hackcss-cards-text"><b>By {{ course.teachers }}</b></p>
-            <p class="t-hackcss-cards-text">{{ course.description }}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <tr>
+      <td><a href="{{ course.link }}">{{ course.name }}</a></td>
+      <td>{{ course.teachers }}</td>
+    </tr>
     {% endfor %}
-
+    </table>
   </div>
 </section>
