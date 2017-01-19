@@ -11,12 +11,28 @@ permalink: edu
     <table>
       <tr>
         <th>name</th>
+        <th>blackboard</th>
+        <th>open access</th>
         <th>instructors</th>
       </tr>
 
     {% for course in site.courses %}
     <tr>
-      <td><a href="{{ course.link }}">{{ course.name }}</a></td>
+      <td>{{ course.name }}</td>
+      <td>
+        {% if course.bb %}
+        <a href="{{ course.bb }}">link</a>
+        {% else %}
+        &nbsp;
+        {% endif %}
+      </td>
+      <td>
+        {% if course.git %}
+        <a href="{{ course.git }}">link</a>
+        {% else %}
+        &nbsp;
+        {% endif %}
+      </td>
       <td>{{ course.teachers }}</td>
     </tr>
     {% endfor %}

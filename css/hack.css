@@ -350,6 +350,10 @@ p {
     padding: 1rem
 }
 
+.inner a {
+    border-bottom: 0px;
+}
+
 .inner2x {
     padding: 2rem
 }
@@ -423,7 +427,6 @@ table thead th {
 }
 
 table tbody td:first-child {
-    font-weight: 700;
     color: #333
 }
 

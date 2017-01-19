@@ -40,19 +40,15 @@ navigation:
 courses:
   - name: Social Data Mining
     teachers: Postma, E., Chrupała, G., Emmery, C.
-    description: Data Science methods are becoming the main tools for acquiring information both in the business context and in scientific research. The course offers a thorough introduction to the use of data mining for the analysis of data in a wide variety of formats. Upon completion of the course, students will have acquired the skills necessary to apply data mining in support of decision making, visualisation, and discovery. In addition, students will be familiar with advanced topics such as deep learning. The perspective of the course is application-oriented and serves to provide students with the knowledge and experience that is in line with the current demand for skilled data scientists.
-    image: http://www.healthbizdecoded.com/wp-content/uploads/2013/06/data-mining-630x390.jpg
-    link: https://mystudy.uvt.nl/it10.vakzicht?taal=N&pfac=FGW&vakcode=880091
+    bb: https://mystudy.uvt.nl/it10.vakzicht?taal=N&pfac=FGW&vakcode=880091
+    git: https://github.com/tcsai/social-data-mining
   - name: Machine Learning
     teachers: Chrupała, G., Noord van, N.
-    description: Learning from examples is one of the most basic aspects of human intelligence. The field of Machine Learning tries to replicate this skill and apply it to real-world problem; filtering spam from your mailbox, recognizing faces in photos, classifying documents, recommending movies and songs, or detecting credit-card fraud. In this course you will learn the theory behind classic machine learning algorithms and at the same time get hands-on experience with using the programming language Python to apply machine learning methods to practical problems.
-    image: https://jaxenter.com/wp-content/uploads/2015/03/shutterstock_155844119-e1426582475771.jpg
-    link: https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880083
+    bb: https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880083
   - name: Research Skills - Text Mining
     teachers: Engelen, J., Keuleers, E., Emmery, C.
-    description: Do liars use specific words and sentence structures more often than people who tell the truth? Can a computer judge the quality of a text and make suggestions for improvement? Have political speeches become more polarizing in the last decade? How can a publisher turn a newspaper archive with millions of articles into an online database that can be browsed by topic? These are just a few questions that fall within the scope of ‘text mining’, an umbrella term for various processes for extracting high-quality information from text, mostly relying on advanced computational techniques.
-    image: http://thehackednews.com/wp-content/uploads/2016/05/stock-photo-robot-child-reading-a-book-in-the-workshop-of-its-creator-287641082-810x541.jpg
-    link: https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022
+    bb: https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022
+    git: https://github.com/tcsai/text-mining
 
 software:
   - name: Omesa
@@ -71,29 +67,34 @@ staff:
       people:
       - name: Prof.dr. Max Louwerse
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/m.m.louwerse.jpg
-        website: https://www.tilburguniversity.edu/webwijs/show/m.m.louwerse.htm
-        email: m.m.louwerse@tilburguniversity.edu
+        plink: m.m.louwerse
 
       - name: Prof.dr. Eric Postma
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/370030.jpg
+        plink: e.o.postma
 
     - scientificstaff:
       label: Scientific staff
       people:
       - name: Prof. Pieter Spronck
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/447823.jpg
+        plink: p.spronck
 
       - name: Dr. Afra Alishahi
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/507532.jpg
+        plink: a.alishahi
 
       - name: Dr. Grzegorz Chrupała
         image: http://grzegorz.chrupala.me/me.jpg
+        plink: g.chrupala
 
       - name: Dr. Marie Postma
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/720333.jpg
+        plink: marie.postma
 
       - name: Dr. Menno van Zaanen
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/289667.jpg
+        plink: m.m.vanzaanen
 
       - name: Chris Emmery
         image: https://avatars3.githubusercontent.com/u/6041070?v=3&s=460
@@ -110,6 +111,7 @@ staff:
       people:
       - name: Dr. Sander Wubben
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/143286.jpg
+        plink: s.wubben
 
     - phds:
       label: PhDs
@@ -117,6 +119,7 @@ staff:
 
       - name: Ákos Kádár
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/kadar.jpg
+        plink: a.kadar
 
       - name: Nanne van Noord
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/noord.jpg
