@@ -80,7 +80,7 @@ people:
       - icon: envelope
         link: mailto:mail@tilburguniversity.edu
 
-  - name: Chris Emmery
+  - name: Chris Emmerich
     image: https://avatars3.githubusercontent.com/u/6041070?v=3&s=460
     contact:
       - icon: globe
@@ -109,6 +109,9 @@ people:
 
   - name: Dr. Menno van Zaanen
     image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/289667.jpg
+
+  - name: Nanne van Noord
+    image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/noord.jpg
 
 social:
   - service: github
