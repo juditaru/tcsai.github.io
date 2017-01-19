@@ -99,16 +99,7 @@ staff:
       - name: Dr. Menno van Zaanen
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/289667.jpg
 
-    - postdocs:
-      label: Postdocs
-      people:
-      - name: Dr. Sander Wubben
-        image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/143286.jpg
-
-    - phds:
-      label: PhDs
-      people:
-      - name: Chris Emmerich
+      - name: Chris Emmery
         image: https://avatars3.githubusercontent.com/u/6041070?v=3&s=460
         contact:
           - icon: globe
@@ -119,6 +110,16 @@ staff:
             link: https://github.com/cmry
           - icon: twitter
             link: https://twitter.com/_cmry
+
+    - postdocs:
+      label: Postdocs
+      people:
+      - name: Dr. Sander Wubben
+        image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/143286.jpg
+
+    - phds:
+      label: PhDs
+      people:
 
       - name: Ákos Kádár
         image: https://lyrawww.uvt.nl/~meetourstaff/imgs/dci/kadar.jpg
